@@ -1,0 +1,111 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Cannot create GC thread. Out of system resources.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (gcTaskThread.cpp:46), pid=9428, tid=9684
+#
+# JRE version: 7.0_11-b21
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.6-b04 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000022cd000):  JavaThread "Unknown thread" [_thread_in_vm, id=9684, stack(0x0000000002450000,0x0000000002550000)]
+
+Stack: [0x0000000002450000,0x0000000002550000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000022cd000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9684, stack(0x0000000002450000,0x0000000002550000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f370000 - 0x000000013f3a3000 	C:\Program Files\Java\jdk1.7.0_11\bin\java.exe
+0x00000000776f0000 - 0x0000000077899000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000774d0000 - 0x00000000775ef000 	C:\Windows\system32\kernel32.dll
+0x000007fefd740000 - 0x000007fefd7ac000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefeb80000 - 0x000007fefec5b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff960000 - 0x000007feff9ff000 	C:\Windows\system32\msvcrt.dll
+0x000007feff8c0000 - 0x000007feff8df000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefec90000 - 0x000007fefedbd000 	C:\Windows\system32\RPCRT4.dll
+0x00000000775f0000 - 0x00000000776ea000 	C:\Windows\system32\USER32.dll
+0x000007fefda50000 - 0x000007fefdab7000 	C:\Windows\system32\GDI32.dll
+0x000007fefdac0000 - 0x000007fefdace000 	C:\Windows\system32\LPK.dll
+0x000007fefd980000 - 0x000007fefda49000 	C:\Windows\system32\USP10.dll
+0x000007fefcd80000 - 0x000007fefcf74000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007feff8e0000 - 0x000007feff951000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefec60000 - 0x000007fefec8e000 	C:\Windows\system32\IMM32.DLL
+0x000007feff7b0000 - 0x000007feff8b9000 	C:\Windows\system32\MSCTF.dll
+0x000007fefd3d0000 - 0x000007fefd401000 	C:\Windows\system32\nvinitx.dll
+0x000007fefd3c0000 - 0x000007fefd3cc000 	C:\Windows\system32\VERSION.dll
+0x00000000638f0000 - 0x00000000639c1000 	C:\Program Files\Java\jdk1.7.0_11\jre\bin\msvcr100.dll
+0x0000000053580000 - 0x0000000053c9f000 	C:\Program Files\Java\jdk1.7.0_11\jre\bin\server\jvm.dll
+0x000007fef8d30000 - 0x000007fef8d39000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe860000 - 0x000007fefe8ad000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe990000 - 0x000007fefe998000 	C:\Windows\system32\NSI.dll
+0x000007fefc250000 - 0x000007fefc28b000 	C:\Windows\system32\WINMM.dll
+0x00000000778c0000 - 0x00000000778c7000 	C:\Windows\system32\PSAPI.DLL
+0x0000000065110000 - 0x000000006511f000 	C:\Program Files\Java\jdk1.7.0_11\jre\bin\verify.dll
+0x0000000063b50000 - 0x0000000063b78000 	C:\Program Files\Java\jdk1.7.0_11\jre\bin\java.dll
+0x0000000064690000 - 0x00000000646a5000 	C:\Program Files\Java\jdk1.7.0_11\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx1024M -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant 
+java_command: com.android.dx.command.Main --dex --output C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\dex\debug C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\classes\debug C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-69a03a5f2d02f48ad4a60cfd1572bd8e4d03c347.jar C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-b554e30b1636e410b7ebdd257e460bbbef9ddf0e.jar C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\pre-dexed\debug\classes-ad7cc2693210257840a4da79bd6ee487fcf0dca3.jar C:\Users\Daniel\AndroidStudioProjects\MemTrain2\app\build\intermediates\pre-dexed\debug\classes-2700cf08fe6fb1e89c4545a9ecb3c6ed401fa130.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\Java\jdk1.7.0_21\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Bluetooth Software\;C:\Program Files\Bluetooth Software\syswow64;;C:\MinGW\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell
+USERNAME=Daniel
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, tsc, tscinvbit
+
+Memory: 4k page, physical 8303736k(1699148k free), swap 11447628k(5080k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.6-b04) for windows-amd64 JRE (1.7.0_11-b21), built on Jan 12 2013 02:38:42 by "java_re" with unknown MS VC++:1600
+
+time: Wed Jul 22 14:39:24 2015
+elapsed time: 0 seconds
+
