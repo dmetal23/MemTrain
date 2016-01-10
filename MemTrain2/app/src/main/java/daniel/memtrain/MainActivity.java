@@ -12,8 +12,8 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-    MediaPlayer chipTune; //our menu music
-    ImageButton play, help, highScore, exit; //our menu buttons
+    MediaPlayer chipTune; // menu music
+    ImageButton play, help, highScore, exit; //menu buttons
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
