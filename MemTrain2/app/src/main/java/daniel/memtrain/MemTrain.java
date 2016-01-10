@@ -26,12 +26,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Created by daniel on 7/13/15.
+ * Created by daniel on 7/13/15
  */
 public final class MemTrain extends Activity{
 
     private MemTrain model; //new MemTrain object
-    public static final int TOTAL_BUTTONS = 3 * 3; //9 buttons superfluous, only 5 in us
+    public static final int TOTAL_BUTTONS = 3 * 3; //9 buttons superfluous, only 5 in use
     private List<Listener> listeners = new ArrayList<Listener>();
     private static TextView e;
     private static int hScore = 0, ultimateHs;//HighScore
