@@ -26,7 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Created by daniel on 7/13/15
+ * Created by daniel on 7/13/15.
  */
 public final class MemTrain extends Activity{
 
