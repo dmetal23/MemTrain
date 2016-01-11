@@ -1,5 +1,5 @@
 # MemTrain
-A spaced themed Simon-Says clone made for Comp 380 at Cal State Northridge.
+A spaced themed Simon-Says clone made for Comp380 at Cal State Northridge.
 
 Please see the official documentation for the full details on the project and software requirements specification. 
 
