@@ -1,0 +1,10 @@
+Version 2.0 
+-----------
+*Improved High score System
+*Removed Annoying/Loud Sounds
+*Added softer synth sounds
+*Removed Credits Page (will be back in a future update)
+*Fixed 'Play Last' bug to not play when the game is lost
+*Fixed 'Play Last' bug to not accept input when the game is lost
+*Added more modern stage shapes
+*Fixed the bitmap error that was causing edges to be distorted

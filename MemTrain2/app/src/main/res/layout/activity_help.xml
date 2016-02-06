@@ -38,19 +38,11 @@
         android:textColor="#fffff9fc"
         android:textSize="20sp"
         android:gravity="center"
-        android:text="After pressing Play Game, you should see a 2 by 2 arrangement of colored buttons. These 4 buttons will show you a sequence. Pay close attention to this sequence. After seeing the sequence, press the correct buttons to copy the sequence you saw. Then repeat and see how good your memory is. If you press Play Last, the previous sequence will repeat but your score will be reduced. Good luck!"
+        android:text="After pressing Play Game, you should see a 2 x 2 arrangement of colored buttons. These 4 buttons will show you a sequence. After seeing the sequence, press the correct buttons to copy the sequence you saw. Then repeat and see how far your memory can take you. If you press Play Last, the previous sequence will repeat but your score will be reduced. Good luck!"
         android:id="@+id/textView2"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/credits"
-        android:src="@drawable/creditshelpbuttonone"
-        android:background="@android:color/transparent"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 </RelativeLayout>

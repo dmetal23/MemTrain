@@ -12,8 +12,8 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-    MediaPlayer chipTune; // menu music
-    ImageButton play, help, highScore, exit; //menu buttons
+    MediaPlayer chipTune; //our menu music
+    ImageButton play, help, highScore, credits; //our menu buttons
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
         final Intent newGame = new Intent(this, MemTrain.class);
         final Intent hsPage = new Intent(this, HighScore.class);
         final Intent helpPage = new Intent(this, Help.class);
+        //final Intent creditsPage = new Intent(this,Credits.class);
 
         chipTune = MediaPlayer.create(this, R.raw.jakim); //create music
         chipTune.setLooping(true); //will loop infinitely
@@ -80,11 +81,22 @@ public class MainActivity extends Activity {
                 return false;
             }
         });
-    }
 
-    @Override
-    public void onBackPressed() {
-        chipTune.start();
+       /* credits = (ImageButton) findViewById(R.id.credits);
+        credits.setOnTouchListener(new View.OnTouchListener(){
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()){
+                    case MotionEvent.ACTION_DOWN:
+                        credits.setImageResource(R.drawable.creditshelpbuttontwo);
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        credits.setImageResource(R.drawable.creditshelpbuttonone);
+                        startActivity(creditsPage);
+                        break;
+                }
+                return false;
+            }
+        }); */
     }
-
 }

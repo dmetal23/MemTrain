@@ -44,6 +44,7 @@ public final class MemTrain extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         model = new MemTrain(this); //new object
 
         //creating font and view
@@ -112,11 +113,11 @@ public final class MemTrain extends Activity{
                                     hScore = 0;
                                 }
                                 else {
-                                    hScore = hScore / 2;
+                                    hScore = hScore - 20;
                                 }
                             }
                             else {
-                                hScore = hScore * 2;
+                                hScore = hScore + 10;
                             }
                             e.setText("Score: " + hScore);
                         }
@@ -308,6 +309,8 @@ public final class MemTrain extends Activity{
         }
     }
 
+    //CURRENTLY NOT USING MULTIPLE LEVELS, CAN BE IMPLEMENTED POSSIBLY IN THE FUTURE
+    //WE SET A DEFAULT LEVEL OF 1 HERE SIMPLY TO START THE GAME
     public void setLevel(int level) { //only one level for now, can set more with use cases
         int savedTotalLength = totalLength;
 
@@ -420,10 +423,12 @@ public final class MemTrain extends Activity{
             e.setGravity(Gravity.CENTER);
             isAHS = false;
             doStream(soundIds[VICTORY_SOUND]);
+            gameMode = LOST;
         }
         else {
-            e.setText("FAIL!");
+            e.setText("Game Over!");
             doStream(soundIds[LOSE_SOUND]);
+            gameMode = LOST;
         }
         hScore = 0;
         startButtonIsOn = false;
@@ -571,12 +576,14 @@ public final class MemTrain extends Activity{
     }
 
     public void playLast() { //used with our Play Last button to play the current sequence again
-        for (int index = 0; index < 4; index++) {
-            showButtonRelease(index); //In case user was fast on the draw: Reset all buttons.
+        if(gameMode != LOST) {
+            for (int index = 0; index < 4; index++) {
+                showButtonRelease(index); //In case user was fast on the draw: Reset all buttons.
+            }
+            gameMode = PLAYING;
+            sequenceIndex = 0;
+            update();
         }
-        gameMode = PLAYING;
-        sequenceIndex = 0;
-        update();
     }
 
     //Loading the High Score

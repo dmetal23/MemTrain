@@ -1,7 +1,9 @@
 # MemTrain
-A spaced themed Simon-Says clone made for Comp380 at Cal State Northridge.
+An improved and modern spaced themed Simon-Says clone made for Android.
 
 Please see the official documentation for the full details on the project and software requirements specification. 
 
-Developed by Daniel Rojas, Ade Bello, David Pineda, and Eric Hernandez in the span of 56 days.
+
+** Version 2.0 Released 02/07/16 -- See patch notes for full details. 
+
   

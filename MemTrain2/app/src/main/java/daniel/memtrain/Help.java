@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 
 public class Help extends Activity {
-    ImageButton credits;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,24 +26,6 @@ public class Help extends Activity {
         help.setTypeface(tf);
         help2.setTypeface(tf);
 
-        final Intent creditsPage = new Intent(this,Credits.class);
-
-        credits = (ImageButton) findViewById(R.id.credits);
-        credits.setOnTouchListener(new View.OnTouchListener(){
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()){
-                    case MotionEvent.ACTION_DOWN:
-                        credits.setImageResource(R.drawable.creditshelpbuttontwo);
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        credits.setImageResource(R.drawable.creditshelpbuttonone);
-                        startActivity(creditsPage);
-                        break;
-                }
-                return false;
-            }
-        });
 
     }
 
