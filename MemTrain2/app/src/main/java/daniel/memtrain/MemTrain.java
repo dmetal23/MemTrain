@@ -106,7 +106,7 @@ public final class MemTrain extends Activity{
                         }
                         else {
                             if (hScore == 0) {
-                                hScore = -10;
+                                hScore = 0;
                             }
                             else if (hScore > 0){
                                 if (hScore == 10) {
