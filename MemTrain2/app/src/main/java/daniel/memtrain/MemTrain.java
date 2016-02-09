@@ -28,6 +28,8 @@ import android.widget.Toast;
 /**
  * Created by daniel on 7/13/15.
  */
+
+//THIS IS OUR MAIN GAME
 public final class MemTrain extends Activity{
 
     private MemTrain model; //new MemTrain object
@@ -452,7 +454,7 @@ public final class MemTrain extends Activity{
         playCurrent();
     }
 
-	/* pressButton is called by the Touch Handler in response to the user... we calculator if the user is
+	/* pressButton is called by the Touch Handler in response to the user... we calculate if the user is
 	 correct first, then we show the release animation */
 
     public void pressButton(int buttonIndex) {

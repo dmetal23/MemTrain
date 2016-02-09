@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
+//THIS IS OUR MAIN MENU
 public class MainActivity extends Activity {
     MediaPlayer chipTune; //our menu music
     ImageButton play, help, highScore, credits; //our menu buttons
@@ -27,7 +27,8 @@ public class MainActivity extends Activity {
 
         chipTune = MediaPlayer.create(this, R.raw.jakim); //create music
         chipTune.setLooping(true); //will loop infinitely
-        chipTune.start(); //start immediately when game opens
+        chipTune.start(); //start immediately when the main menu opens
+
 
         //initialing some buttons for the main activity
         play = (ImageButton) findViewById(R.id.startGame);

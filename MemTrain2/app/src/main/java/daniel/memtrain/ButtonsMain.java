@@ -10,6 +10,7 @@ import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.view.View;
 
+//THIS IS THE LAYOUT TO OUR MAIN BOARD
 public class ButtonsMain extends View implements MemTrain.Listener {
 
 	// measurements
