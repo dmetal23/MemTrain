@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_new_hs.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\menu\\menu_new_hs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_help.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\menu\\menu_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_high_score.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\menu\\menu_high_score.xml"
+    }
+]

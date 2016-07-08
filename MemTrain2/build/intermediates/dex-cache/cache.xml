@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f18c37f17d46c8d41c40d6e20c9fdd27301bd5dd">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_846e0e9423086652575fa835ec5f80632b63b8f6\classes.dex" />
+    </item>
+    <item
         jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\pre-dexed\debug\classes-24eaff62ad724105dace3504183187c71514dbce.jar" />
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_24eaff62ad724105dace3504183187c71514dbce\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-69a03a5f2d02f48ad4a60cfd1572bd8e4d03c347.jar" />
-    </item>
-    <item
-        jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\pre-dexed\debug\classes-25a8404a6ee14bde7cd9e39725a7459b002640ad.jar" />
+        sha1="14b904a9c709a4f902f20768e396b1099e7cd31f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c8ea7231aedde6b7c244145675adcb7494ad59a1\classes.dex" />
     </item>
     <item
         jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c5013385808bfede6cf65f88bc8c42d643d5455e.jar" />
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_c5013385808bfede6cf65f88bc8c42d643d5455e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_e531bb68596de45c785bf94c9856afcdd505e950\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\MemTrainOfficial-master\MemTrain2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_25a8404a6ee14bde7cd9e39725a7459b002640ad\classes.dex" />
     </item>
 
 </items>

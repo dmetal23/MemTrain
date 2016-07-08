@@ -25,9 +25,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/**
- * Created by daniel on 7/13/15.
- */
 
 //THIS IS OUR MAIN GAME
 public final class MemTrain extends Activity{

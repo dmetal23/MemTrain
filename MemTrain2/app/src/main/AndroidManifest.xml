@@ -32,11 +32,6 @@
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
             android:label="@string/title_activity_help" >
         </activity>
-        <activity
-            android:name=".Credits"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            android:label="@string/title_activity_credits" >
-        </activity>
     </application>
 
 </manifest>

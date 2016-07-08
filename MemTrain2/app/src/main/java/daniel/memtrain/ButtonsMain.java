@@ -6,7 +6,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -14,7 +13,7 @@ import android.view.View;
 public class ButtonsMain extends View implements MemTrain.Listener {
 
 	// measurements
-	private static final int BUTTON_GRID_SIZE = 2;
+	private static final int BUTTON_GRID_SIZE = 2; //we use a 2x2 grid for 4 buttons total
 	private static final float BUTTON_PADDING = 0.01f;
 	private float buttonCellSize;
 	private float scale;
@@ -34,6 +33,7 @@ public class ButtonsMain extends View implements MemTrain.Listener {
 	// model
 	private MemTrain model;
 
+	//we initialize using super to make sure we don't break parent class logic
 	public ButtonsMain(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		init();
@@ -53,7 +53,7 @@ public class ButtonsMain extends View implements MemTrain.Listener {
 		initDrawingInstruments();
 	}
 
-	private void initDrawingInstruments() { //here we are assigning our pictures to our different states
+	private void initDrawingInstruments() { //we assign our pictures to our different button states
 		Resources resources = getContext().getResources();
 		
 		redOn = BitmapFactory.decodeResource(resources, R.drawable.redshape_on);
@@ -188,8 +188,8 @@ public class ButtonsMain extends View implements MemTrain.Listener {
 		float scaledX = x / scale;
 		float scaledY = y / scale;
 
-		float buttonCellX = FloatMath.floor(scaledX / buttonCellSize);
-		float buttonCellY = FloatMath.floor(scaledY / buttonCellSize);
+		float buttonCellX = (float)Math.floor(scaledX / buttonCellSize);
+		float buttonCellY = (float)Math.floor(scaledY / buttonCellSize);
 
 		return getButtonIndex((int) buttonCellY, (int) buttonCellX);
 	}

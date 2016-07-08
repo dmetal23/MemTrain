@@ -30,27 +30,28 @@ public class MainActivity extends Activity {
         chipTune.start(); //start immediately when the main menu opens
 
 
+
         //initialing some buttons for the main activity
-        play = (ImageButton) findViewById(R.id.startGame);
-        play.setOnTouchListener(new View.OnTouchListener() {
+        play = (ImageButton) findViewById(R.id.startGame);//a button that opens the actual game
+        play.setOnTouchListener(new View.OnTouchListener() { //we use a listener to listen for a tap
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        play.setImageResource(R.drawable.sgametwo);
+            public boolean onTouch(View v, MotionEvent event) { //a motionevent is used to detect a tap
+                switch (event.getAction()) { //depending on our action state
+                    case MotionEvent.ACTION_DOWN: //when we tap down
+                        play.setImageResource(R.drawable.sgametwo); //show the 'button pressed' image
                         break;
-                    case MotionEvent.ACTION_UP:
-                        play.setImageResource(R.drawable.sgameone);
-                        chipTune.pause();
-                        startActivity(newGame);
+                    case MotionEvent.ACTION_UP: //when we let go of the tap on the 'up' motion
+                        play.setImageResource(R.drawable.sgameone); //set back default button image
+                        chipTune.pause(); //pause the music when we go into our game
+                        startActivity(newGame); //we start our actual game Intent in MemTrain
                         break;
                 }
                 return false;
             }
         });
 
-        highScore = (ImageButton) findViewById(R.id.highScore);
-        highScore.setOnTouchListener(new View.OnTouchListener() {
+        highScore = (ImageButton) findViewById(R.id.highScore); //a button that opens the high score page
+        highScore.setOnTouchListener(new View.OnTouchListener() { //same logic as before
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -66,8 +67,8 @@ public class MainActivity extends Activity {
             }
         });
 
-        help = (ImageButton) findViewById(R.id.help);
-        help.setOnTouchListener(new View.OnTouchListener() {
+        help = (ImageButton) findViewById(R.id.help); //a button that opens the help page
+        help.setOnTouchListener(new View.OnTouchListener() { //same logic as before
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -83,21 +84,5 @@ public class MainActivity extends Activity {
             }
         });
 
-       /* credits = (ImageButton) findViewById(R.id.credits);
-        credits.setOnTouchListener(new View.OnTouchListener(){
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()){
-                    case MotionEvent.ACTION_DOWN:
-                        credits.setImageResource(R.drawable.creditshelpbuttontwo);
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        credits.setImageResource(R.drawable.creditshelpbuttonone);
-                        startActivity(creditsPage);
-                        break;
-                }
-                return false;
-            }
-        }); */
     }
 }

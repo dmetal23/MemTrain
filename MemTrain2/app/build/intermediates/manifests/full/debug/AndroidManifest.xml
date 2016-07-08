@@ -38,11 +38,6 @@
             android:label="@string/title_activity_help"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
-        <activity
-            android:name="daniel.memtrain.Credits"
-            android:label="@string/title_activity_credits"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-        </activity>
     </application>
 
 </manifest>

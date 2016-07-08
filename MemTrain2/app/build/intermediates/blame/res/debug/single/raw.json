@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mbison.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\mbison.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\memtraintheme.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\memtraintheme.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\purple.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\purple.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\red.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\red.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\green.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\green.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lose.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\lose.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\victory.mp3",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\victory.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jakim.mp3",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\jakim.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blue.ogg",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\MemTrainOfficial-master\\MemTrain2\\app\\src\\main\\res\\raw\\blue.ogg"
+    }
+]
