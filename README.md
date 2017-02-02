@@ -13,9 +13,15 @@ ________________________________________
 Bug Fixes and Improvements: 
 
 -Improved High Score System to not allow negative values and add more overall points. 
+
 -Removed Annoying/Loud Tap Sounds and replaced them with softer Synth notes. 
+
 -Removed Credits Page completely to work out a new design (will be back in a future update).
+
 -Fixed 'Play Last' bug to not play when the game is lost.
+
 -Fixed 'Play Last' bug to not accept input when the game is lost.
+
 -Added higher bit and more modern shapes. 
+
 -Fixed the bitmap error that was causing edges to be distorted around shapes.
